@@ -1,0 +1,6 @@
+apis:
+  - Genshin data: https://genshin-app-api.herokuapp.com/api
+    Used for getting data about characters, materials and weapons
+  - Player data: https://enka.network/api
+    Used for getting player data. Only gets characters in the players showcase.
+    More info on Enka networks site
