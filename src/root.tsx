@@ -36,8 +36,14 @@ export default function Root() {
                 <li class={`border-b-2 ${active("/")} mx-1.5 sm:mx-6`}>
                   <A href="/">Home</A>
                 </li>
-                <li class={`border-b-2 ${active("/about")} mx-1.5 sm:mx-6`}>
-                  <A href="/about">About</A>
+                <li class={`border-b-2 ${active("/item")} mx-1.5 sm:mx-6`}>
+                  <A href="/item">Item</A>
+                </li>
+                <li class={`border-b-2 ${active("/player")} mx-1.5 sm:mx-6`}>
+                  <A href="/player">Player</A>
+                </li>
+                <li class={`border-b-2 ${active("/weapon")} mx-1.5 sm:mx-6`}>
+                  <A href="/weapon">Weapon</A>
                 </li>
               </ul>
             </nav>
