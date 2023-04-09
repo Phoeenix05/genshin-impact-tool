@@ -1,8 +1,10 @@
 apis:
-  - Genshin data: 
-    - url: https://genshin-app-api.herokuapp.com/api
-    - desc: Used for getting data about characters, materials and weapons
-  - Player data: 
-    - url: https://enka.network/api
-    - desc: Used for getting player data. Only gets characters in the players showcase.
-            More info on Enka networks site
+  - Genshin data:
+      - url: https://genshin-app-api.herokuapp.com/api
+      - desc: Used for getting data about characters, materials and weapons
+      - notes: Currently in testing. Might switch APIs if this one doesn't work out.
+  - Player data:
+      - url: https://enka.network/api
+      - desc:
+          Used for getting player data. Only gets characters in the players showcase.
+          More info on Enka networks site

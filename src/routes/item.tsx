@@ -1,9 +1,9 @@
 import { createResource, createSignal } from "solid-js"
 
-const fetchItemData = async () => {
-    return await fetch("/api/item", { 
+const fetchItemData = async (name: string) => {
+    return await fetch("https://genshin-app-api.herokuapp.com/api/enemydrops/info/Heavy%20Horn", { 
         method: "GET" 
-    }).then(res => res.text())
+    }).then(res => res.json())
 }
 
 const ItemPage = () => {
