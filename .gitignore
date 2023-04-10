@@ -4,6 +4,7 @@ dist
 .vercel
 .netlify
 netlify
+.pnpm-store
 
 # dependencies
 /node_modules

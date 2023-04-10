@@ -11,4 +11,4 @@ COPY . /usr/app/
 
 EXPOSE 3000
 
-CMD [ "pnpm", "dev" ]
+# CMD [ "pnpm", "dev" ]

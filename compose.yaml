@@ -1,0 +1,9 @@
+services:
+  app:
+    build: .
+    command: pnpm dev
+    volumes:
+      - .:/usr/app:rw
+      # - ./node_modules:/use/app/node_modules:rw
+    ports:
+      - "3000:3000"
